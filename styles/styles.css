@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0f7373;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*navbar*/
+
+.navbar {
+    background-color: #084444;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /*fijarse si dejarlo o cambiarlo */
+}
+
+.navbar .nav-link{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.navbar .nav-link:hover{
+    color: #d7c68e;
+}
+
+.navbar .nav-link.active{
+    color: #d7c68e;
+    font-weight: bold;
+}
+
+.camino-logo{
+    width: 5rem;
+}
+/*main*/
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.texto-inicial{
+    color:#0f7373;
+    padding: 3rem 2rem;
+    max-width: 40rem;
+    text-align: center;
+    background-color:#ffffff;
+    border-radius: 0.5rem;
+}
+
+.texto-inicial h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.texto-inicial h3{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.redes-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.redes{
+    width: 2.5rem;
+}
+
+.redes:hover{
+    transform: scale(1.15)
+}
+
+/*cards*/
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2rem 1.5rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.8rem;
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card h4{
+    color: #0f7373;
+    font-size: 1.3rem;
+}
+
+.card p{
+    color: #555555;
+    font-size: 0.95rem;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-button{
+    margin-top: auto;
+    text-decoration: none;
+    background-color: #0f7373;
+    color: #ffffff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.card-button:hover{
+    background-color: #d7c68e;
+    color: #0f7373;
+}
+
