@@ -165,3 +165,44 @@ footer{
     color: #0f7373;
 }
 
+/*formulario contacto*/
+
+.contacto {
+    padding: 3rem 1rem;
+    color:#ffffff;
+}
+
+.contacto-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #0f7373;
+}
+
+.contacto-subtitulo{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0f7373;
+}
+
+.btn-enviar {
+    background-color: #084444;
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.btn-enviar:hover {
+    background-color: #d7c68e;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.form-contacto {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
