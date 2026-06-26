@@ -3,13 +3,17 @@
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 html, body {
     width: 100%;
     min-height: 100%;
     margin: 0;
     padding: 0;
 }
-
 body{
     background-color: #0f7373;
 }
@@ -48,6 +52,10 @@ img{
 main{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 1rem;
 }
 .texto-inicial{
     color:#0f7373;
