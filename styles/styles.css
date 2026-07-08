@@ -52,7 +52,6 @@ img{
 main{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
     padding: 2rem 1rem;
@@ -205,4 +204,29 @@ footer{
     background-color: #ffffff;
     padding: 2.5rem;
     border-radius: 1rem;
+}
+
+/*preguntas frecuentes*/
+
+.preguntas {
+    padding: 3rem 1rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.preguntas-titulo {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d4e6e6;
+    color: #084444;
 }
