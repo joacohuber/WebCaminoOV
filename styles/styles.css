@@ -230,3 +230,36 @@ footer{
     background-color: #d4e6e6;
     color: #084444;
 }
+
+/*informacion / sobre camino*/
+
+.info {
+    padding: 3rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.info-bloque {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.info-titulo {
+    color: #0f7373;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.info-subtitulo {
+    color: #0f7373;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.info-texto {
+    color: #555555;
+    line-height: 1.8;
+}
