@@ -1,0 +1,24 @@
+@use "../utilities/variables";
+
+.preguntas {
+    padding: 3rem 1rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.preguntas-titulo {
+    color: variables.$color-blanco;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.accordion {
+    width: 100%;
+
+    &-button:not(.collapsed) {
+        background-color: variables.$color-claro;
+        color: variables.$color-oscuro;
+    }
+}

@@ -1,0 +1,42 @@
+@use "../utilities/variables";
+@use "../utilities/extend";
+
+.contacto {
+    padding: 3rem 1rem;
+    color: variables.$color-blanco;
+}
+
+.contacto-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: variables.$color-primario;
+}
+
+.contacto-subtitulo {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: variables.$color-primario;
+}
+
+.form-contacto {
+    @extend %caja-blanca;
+    max-width: 600px;
+    padding: 2.5rem;
+    margin: 0 auto;
+}
+
+.btn-enviar {
+    background-color: variables.$color-oscuro;
+    color: variables.$color-blanco;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+
+    &:hover {
+        background-color: variables.$color-acento;
+        color: variables.$color-primario;
+        transform: translateY(-2px);
+    }
+}

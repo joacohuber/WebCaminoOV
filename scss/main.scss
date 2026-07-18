@@ -1,0 +1,15 @@
+
+@use "partials/utilities/variables";
+@use "partials/utilities/mixins";
+@use "partials/utilities/extend";
+
+@use "partials/base/reset";
+
+@use "partials/layout/navbar";
+@use "partials/layout/footer";
+@use "partials/layout/home";
+
+@use "partials/components/cards";
+@use "partials/components/formulario";
+@use "partials/components/preguntas";
+@use "partials/components/info";

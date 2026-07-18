@@ -1,0 +1,28 @@
+@use "../utilities/variables";
+
+body {
+    background-color: variables.$color-primario;
+}
+
+.navbar {
+    background-color: variables.$color-oscuro;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    .nav-link {
+        color: variables.$color-blanco;
+        font-size: 1.2rem;
+
+        &:hover {
+            color: variables.$color-acento;
+        }
+
+        &.active {
+            color: variables.$color-acento;
+            font-weight: bold;
+        }
+    }
+}
+
+.camino-logo {
+    width: 5rem;
+}
