@@ -49,16 +49,17 @@
             <p class="contacto-subtitulo">¿Tenés una consulta? Dejanos tus datos y tu mensaje.</p>
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre">
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required aria-required="true">
+            </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+                <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required aria-required="true">
             </div>
             <div class="mb-3">
                 <label for="Mensaje" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="Mensaje" name="mensaje" rows="3" placeholder="Escribi tu consulta..."></textarea>
+                <textarea class="form-control" id="Mensaje" name="mensaje" rows="3" placeholder="Escribi tu consulta..." required aria-required="true"></textarea>
             </div>
-            <button type="enviar" class="btn-enviar">Enviar</button>
+            <button type="submit" class="btn-enviar">Enviar</button>
         </form>
     </main>
 
